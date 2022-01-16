@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://seongbrave.cn/apps/linkr.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://seongbrave.cn/image.5x57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://seongbrave.cn/image.512x512.png</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.levermore.linkr</key>
+		<string>linkr_ad_profile</string>
+		<key>com.levermore.linkr.linkrReceiveSharing</key>
+		<string>linkr_share_ad_profile</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>88856ECD779DE53A4E517A447201A710735BBBA0</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<false/>
+	<key>teamID</key>
+	<string>SJL3GLYBBN</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
